@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:background="#FFFFFFFF"
+	android:padding="1dp">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:clickable="true"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="SVG"
+			android:gravity="center"
+			android:textColor="#FF000000"
+			android:textSize="16sp"
+			android:padding="10dp"
+			android:background="@drawable/button_x_fff"
+			android:layout_margin="1dp"
+			android:id="@+id/svg"/>
+
+		<TextView
+			android:clickable="true"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Code"
+			android:gravity="center"
+			android:textColor="#FF000000"
+			android:textSize="16sp"
+			android:padding="10dp"
+			android:background="@drawable/button_x_fff"
+			android:layout_margin="1dp"
+			android:id="@+id/code"/>
+
+		<TextView
+			android:clickable="true"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="←"
+			android:gravity="center"
+			android:textColor="#FF000000"
+			android:textSize="16sp"
+			android:padding="10dp"
+			android:background="@drawable/button_x_fff"
+			android:layout_margin="1dp"
+			android:id="@+id/back"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
